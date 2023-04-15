@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class SampleTest {
-
+    //TODO Magic for Miraj Bhai
     @Test
     public void checkUserName() {
         WebDriver driver = new ChromeDriver();
