@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Main {
     public static void main(String[] args) {
-        //System.out.println("Hello world!");
+        //System.out.println("Hello world!");send to noor vai
         WebDriver driver = new ChromeDriver(); //Command to open chrome browser
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");//cmd to goto url
         driver.manage().window().setSize(new Dimension(1440, 875));//cmd to maximise browser
